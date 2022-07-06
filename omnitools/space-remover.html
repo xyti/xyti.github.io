@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Space Remover - Omnitools</title>
+<link href="assets/style.css" type="text/css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+</head>
+<body class="bgcolor">
+  <center class="bgcolor">
+    <h2>Space Remover</h2>
+    <div class="maxwidth">
+    	<div class="form">
+        	<form id="space_remover">
+        	<label for="textinput" class="label">Text Input:</label>
+            <textarea id="textinput" name="textinput" placeholder="Input Text"></textarea>
+            <label for="textoutput" class="label">Result:</label>
+            <textarea id="textoutput" name="textoutput" placeholder="Result" readonly></textarea>
+            <input type="button" id="space" value="Remove Space">
+            <label for="switchtoggle">Live Mode: </label>
+          	<label class="switchtoggle" id="switchtoggle">
+            	<input type="radio" form="space_remover" name="live_mode" id="ispace">
+            	<div class="slidertogglerp roundshaped"></div>
+          	</label>
+            <br><br>
+            <input type="button" id="spacelinebreak" value="Remove Space & Line Break">
+            <label for="switchtoggle">Live Mode: </label>
+          	<label class="switchtoggle" id="switchtoggle">
+            	<input type="radio" form="space_remover" name="live_mode" id="ispacelinebreak">
+            	<div class="slidertogglerp roundshaped"></div>
+          	</label>
+            <br><br>
+            <input type="button" id="copy" value="Copy Result">
+            </form>
+        </div>
+    </div>
+  </center>
+  <script src="assets/space-remover.js"></script>
+</body>
+</html>

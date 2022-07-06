@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>URL Decoder - Omnitools</title>
+<link href="assets/style.css" type="text/css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+</head>
+<body class="bgcolor">
+  <center class="bgcolor">
+    <h2>URL Decoder</h2>
+    <div class="maxwidth">
+    	<div class="form">
+        	<label for="urlinput" class="label">URL Input</label>
+            <textarea id="urlinput" name="urlinput" placeholder="Input URL to decode"></textarea>
+            <br><br>
+            <label for="switchtoggle">Live Mode: </label>
+          	<label class="switchtoggle" id="switchtoggle">
+            	<input type="checkbox">
+            	<div class="slidertogglerp roundshaped"></div>
+          	</label>
+            <br><br>
+            <label for="urloutput" class="label">Decoded URL:</label>
+            <textarea id="urloutput" name="urloutput" placeholder="Decoded URL" readonly></textarea>
+            <input type="button" id="decode" value="Decode">
+            <input type="button" id="copy" value="Copy Result">
+        </div>
+    </div>
+  </center>
+  <script src="assets/url-decoder.js"></script>
+</body>
+</html>
